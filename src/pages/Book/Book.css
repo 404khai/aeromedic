@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+.book{
+    height: 100%;
+    /* border: 3px solid rgb(250, 0, 0); */
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    font-family: Poppins, sans-serif;
+}
+.bookHeroSec{
+    
+    width: 100%;
+    height: 600px;
+    /* border: 2px solid wheat; */
+    background: linear-gradient(to right, #707070, #9a9a9a, #d4d4d4);
+    display: flex;
+    backdrop-filter: blur(10px);
+    /* padding-left: 50px; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bookTxt{
+    margin-top: 60px;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    /* border-left: 10px solid white; */
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    /* background-color: black; */
+}
+.bookTxt h1{
+    font-family: MuseoModerno, serif;
+    font-size: 30px;
+}
+
+.bookNow{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(135, 132, 127);
+    color: rgb(195, 79, 79);
+    border: 0;
+    border-radius: 30px;
+}
+.bookNow:hover{
+    transform: scale(1.04);
+    border: 3px solid rgb(135, 132, 127);
+    color: rgb(135, 132, 127);
+    background-color: transparent;
+}
+
+.droneShop{
+    /* padding-left: 30px; */
+    width: 100%;
+    height: 700px;
+    /* background-color: bisque; */
+    display: flex;
+    /* gap: 30px; */
+    /* padding-left: 20px; */
+    /* overflow: hidden; */
+    justify-content: space-evenly;
+    /* align-items: center; */
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    /* border: 3px solid black; */
+}

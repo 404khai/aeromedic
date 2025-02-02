@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import eVTOL from '../../images/eVTOL2.png'
+import eVTOL from '../../images/eVTOL4.png'
 
 const Home = () => {
   return (

@@ -5,28 +5,64 @@
       "images": ["../../src/images/eVTOL1.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
       "mainImage": "../../src/images/eVTOL1.png",
       "specs": {
-        "weight": "500g",
-        "price": "$10"
+        "status": "IDLE",
+        "rating": 4,
+        "price": "$85"
       }
     },
     {
         "id": 2,
         "name": "eVTOL 2",
-        "images": ["../../src/images/eVTOL1.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
-        "mainImage": "../../src/images/eVTOL1.png",
+        "images": ["../../src/images/eVTOL2.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
+        "mainImage": "../../src/images/eVTOL2.png",
         "specs": {
-          "weight": "500g",
-          "price": "$10"
+          "status": "LOADING",
+          "rating": 3,
+          "price": "$79.3"
         }
     },
     {
         "id": 3,
-        "name": "eVTOL 3",
+        "name": "eVTOL 4",
         "images": ["../../src/images/eVTOL1.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
-        "mainImage": "../../src/images/eVTOL1.png",
+        "mainImage": "../../src/images/eVTOL3.png",
         "specs": {
-          "weight": "500g",
-          "price": "$10"
+          "status": "LOADED",
+          "rating": 3,
+          "price": "$46"
+        }
+    },
+    {
+      "id": 4,
+      "name": "eVTOL 4",
+      "images": ["../../src/images/eVTOL1.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
+      "mainImage": "../../src/images/eVTOL1.png",
+      "specs": {
+        "status": "DELIVERING",
+        "rating": 4,
+        "price": "$85"
+      }
+    },
+    {
+        "id": 5,
+        "name": "eVTOL 5",
+        "images": ["../../src/images/eVTOL2.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
+        "mainImage": "../../src/images/eVTOL2.png",
+        "specs": {
+          "status": "DELIVERED",
+          "rating": 3,
+          "price": "$79.3"
+        }
+    },
+    {
+        "id": 6,
+        "name": "eVTOL 6",
+        "images": ["../../src/images/eVTOL1.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
+        "mainImage": "../../src/images/eVTOL3.png",
+        "specs": {
+          "status": "RETURNING",
+          "rating": 3,
+          "price": "$46"
         }
     }
 ]

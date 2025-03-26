@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import './Navbar.css'
-import avatar from '../../images/avatar.png'
+import logo from '../../images/logo.png'
 import { IoMdNotifications } from "react-icons/io";
-import { FaShoppingCart } from "react-icons/fa";
+import { GiDeliveryDrone } from "react-icons/gi";
+// import { FaShoppingCart } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -11,19 +12,21 @@ const Navbar = () => {
     return (
         <div className='navBar'>
             <div className="logo">
-                <h1>eVTOL</h1>
+                <img src={logo} alt="" className='logoIcon'/>
+                <h1>SwiftDrones</h1>
             </div>
 
             <div className="navLinks">
                 <Link to='/Home' className='navLink'>Home</Link>
-                <Link to='/Deliveries' className='navLink'>Deliveries</Link>
-                <Link to='/Book' className='navLink'>Book an eVTOL</Link>
+                <Link to='/Deliveries' className='navLink'>Meds</Link>
+                <Link to='/Book' className='navLink'>Booking</Link>
             </div>
 
             <div className="user">
-                <i><IoMdNotifications /></i>
-                <i><FaShoppingCart /></i>
-                <img src={avatar} alt="" />
+                {/* <i><IoMdNotifications /></i> */}
+                <button className='signIn'>
+                    <Link to='/UserLogin'>Sign In</Link>
+                </button>
             </div>
         </div>
     )

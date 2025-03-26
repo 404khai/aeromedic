@@ -7,8 +7,10 @@
       "specs": {
         "status": "IDLE",
         "rating": 4,
-        "price": "$85"
+        "price": "$85",
+        "battery": "100%"
       }
+      
     },
     {
         "id": 2,
@@ -18,7 +20,8 @@
         "specs": {
           "status": "LOADING",
           "rating": 3,
-          "price": "$79.3"
+          "price": "$79.3",
+          "battery": "100%"
         }
     },
     {
@@ -29,41 +32,10 @@
         "specs": {
           "status": "LOADED",
           "rating": 3,
-          "price": "$46"
+          "price": "$46",
+          "battery": "100%"
         }
-    },
-    {
-      "id": 4,
-      "name": "eVTOL 4",
-      "images": ["../../src/images/eVTOL1.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
-      "mainImage": "../../src/images/eVTOL1.png",
-      "specs": {
-        "status": "DELIVERING",
-        "rating": 4,
-        "price": "$85"
-      }
-    },
-    {
-        "id": 5,
-        "name": "eVTOL 5",
-        "images": ["../../src/images/eVTOL2.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
-        "mainImage": "../../src/images/eVTOL2.png",
-        "specs": {
-          "status": "DELIVERED",
-          "rating": 3,
-          "price": "$79.3"
-        }
-    },
-    {
-        "id": 6,
-        "name": "eVTOL 6",
-        "images": ["../../src/images/eVTOL1.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
-        "mainImage": "../../src/images/eVTOL3.png",
-        "specs": {
-          "status": "RETURNING",
-          "rating": 3,
-          "price": "$46"
-        }
+        
     }
 ]
   

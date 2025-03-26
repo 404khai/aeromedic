@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import './Card.css'
 import { FaStar, FaRegStar } from 'react-icons/fa';
+import { FaBatteryThreeQuarters } from "react-icons/fa6";
 
 const Card = ({product}) => {
   const renderStars = (rating) => {
@@ -33,9 +34,13 @@ const Card = ({product}) => {
               <b>{product.specs.status}</b>
             </p>
             <div className="rating">{renderStars(product.specs.rating)}</div>
+            <div className="battery">
+              <FaBatteryThreeQuarters/>{product.specs.battery}
+            </div>
           </div>
-          <p>{product.specs.price}</p>
+          <p id='price' className='merriweather-bold-italic'>{product.specs.price}</p>
         </div>
+        
         <a href="#" className='btn'>Book Now</a>
       </div>
     </div>

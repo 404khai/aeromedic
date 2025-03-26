@@ -1,25 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.merriweather-bold-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+}
 .card{
-    width: 250px;
-    height: 300px;
+    width: 300px;
+    height: 350px;
     background-color: rgba(255, 250, 250, 0.721);
     display: flex;
     border-radius: 10px;
-}
-.thumb{
-    /* position: absolute; */
-    z-index: 1;
-    margin-top: 150px;
-    margin-left: -40px;
-    height: 300px;
-    width: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* left: 28%; */
-    /* padding: 30px; */
-    transform: translateY(-50%);
-    /* border: 3px solid wheat; */
 }
 .imgBox{
     position: relative;
@@ -30,7 +21,7 @@
     /* background-color: #ff0; */
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.731);
     /* background: rgb(255, 255, 255, 0.2); */
-    /* border: 1px solid rgb(255, 255, 255, 0.25); */
+    /* border: 1px solid rgb(0, 0, 0); */
     /* border-top: 1px solid rgb(255, 255, 255, 0.5); */
     /* border-left: 1px solid rgb(255, 255, 255, 0.5); */
     border-radius: 20px;
@@ -79,12 +70,16 @@
     align-items: start;
     /* border: 1px solid black; */
     width: 100%;
+    height: 100px;
+    padding-top: 0;
 }
 .leftSpecs{
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
     width: 80%;
-    height: 70%;
+    height: 100%;
     /* border: 2px solid wheat; */
 }
 .btn{
@@ -108,12 +103,29 @@
 .rating {
     display: flex;
     gap: 3px;
-    font-size: 18px;
-    height: 50%;
+    font-size: 15px;
+    height: 30%;
+    /* border: 1px solid black; */
     /* background-color: brown; */
     /* margin-top: 5px; */
 }
 #status{
     font-size: 14px;
+    font-family: MuseoModerno, serif;
+    height: 20px;
+    /* border: 1px solid black; */
     /* color: rgb(30, 144, 30); */
+}
+.battery{
+    border: 1px solid black;
+    color: rgb(28, 133, 28);
+    /* color: aliceblue; */
+    width: 90%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    /* padding-left: 20px; */
+    border: 0;
 }

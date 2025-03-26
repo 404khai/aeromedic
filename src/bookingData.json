@@ -1,12 +1,12 @@
 [
     {
       "id": 1,
-      "name": "eVTOL 1",
+      "name": "eV-001",
       "images": ["../../src/images/eVTOL1.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
       "mainImage": "../../src/images/eVTOL1.png",
       "specs": {
         "status": "IDLE",
-        "rating": 4,
+        "model": "Lightweight",
         "price": "$85",
         "battery": "100%"
       }
@@ -14,28 +14,65 @@
     },
     {
         "id": 2,
-        "name": "eVTOL 2",
+        "name": "eV-002",
         "images": ["../../src/images/eVTOL2.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
         "mainImage": "../../src/images/eVTOL2.png",
         "specs": {
           "status": "LOADING",
-          "rating": 3,
+          "model": "Middleweight",
           "price": "$79.3",
           "battery": "100%"
         }
     },
     {
         "id": 3,
-        "name": "eVTOL 4",
+        "name": "eV-003",
         "images": ["../../src/images/eVTOL1.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
         "mainImage": "../../src/images/eVTOL3.png",
         "specs": {
           "status": "LOADED",
-          "rating": 3,
+          "model": "Cruiserweight",
           "price": "$46",
           "battery": "100%"
         }
         
+    },
+    {
+      "id": 4,
+      "name": "eV-004",
+      "images": ["../../src/images/eVTOL1.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
+      "mainImage": "../../src/images/eVTOL3.png",
+      "specs": {
+        "status": "IDLE",
+        "model": "Heavyweight",
+        "price": "$46",
+        "battery": "100%"
+      }
+      
+  },
+  {
+    "id": 5,
+    "name": "eV-005",
+    "images": ["../../src/images/eVTOL1.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
+    "mainImage": "../../src/images/eVTOL3.png",
+    "specs": {
+      "status": "IDLE",
+      "model": "Cruiserweight",
+      "price": "$46",
+      "battery": "100%"
     }
+  },
+  {
+    "id": 6,
+    "name": "eV-006",
+    "images": ["../../src/images/eVTOL1.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
+    "mainImage": "../../src/images/eVTOL3.png",
+    "specs": {
+      "status": "LOADING",
+      "model": "Middleweight",
+      "price": "$46",
+      "battery": "100%"
+    }
+  }
 ]
   

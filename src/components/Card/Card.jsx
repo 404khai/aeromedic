@@ -1,16 +1,16 @@
 import React, {useState} from 'react'
 import './Card.css'
-import { FaStar, FaRegStar } from 'react-icons/fa';
+// import { FaStar, FaRegStar } from 'react-icons/fa';
 import { FaBatteryThreeQuarters } from "react-icons/fa6";
 
 const Card = ({product}) => {
-  const renderStars = (rating) => {
-    const stars = [];
-    for (let i = 1; i <= 5; i++) {
-      stars.push(i <= rating ? <FaStar key={i} color="gold" /> : <FaRegStar key={i} color="gray" />);
-    }
-    return stars;
-  };
+  // const renderStars = (rating) => {
+  //   const stars = [];
+  //   for (let i = 1; i <= 5; i++) {
+  //     stars.push(i <= rating ? <FaStar key={i} color="gold" /> : <FaRegStar key={i} color="gray" />);
+  //   }
+  //   return stars;
+  // };
 
   const getStatusColor = (status) => {
     switch (status) {
@@ -33,7 +33,7 @@ const Card = ({product}) => {
             <p id='status' style={{ color: getStatusColor(product.specs.status) }}>
               <b>{product.specs.status}</b>
             </p>
-            <div className="rating">{renderStars(product.specs.rating)}</div>
+            <div className="model">{product.specs.model}</div>
             <div className="battery">
               <FaBatteryThreeQuarters/>{product.specs.battery}
             </div>

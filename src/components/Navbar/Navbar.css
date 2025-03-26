@@ -90,17 +90,21 @@
 .signIn{
     font-family: MuseoModerno, serif;
     background-color: coral;
+    /* background-color: transparent; */
     border: 0;
-    border-radius: 30px;
+    /* border: 2px solid coral; */
+    border-radius: 10px;
     /* width: 100px; */
     padding: 10px 20px 10px 20px;
     cursor: pointer;
 }
 .signIn a{
     color: white;
+    /* color: black; */
     text-decoration: none;
 }
 .signIn:hover{
     /* letter-spacing: 2px; */
-    background-color: rgb(201, 84, 41);
+    transform: scale(1.1);
+    background-color: rgb(224, 99, 53);
 }

@@ -1,14 +1,14 @@
 .droneShop{
     /* padding-left: 30px; */
     width: 80%;
-    height: 150vh;
+    height: fit-content;
     /* background-color: bisque; */
     display: flex;
     align-self: center;
     margin-top: 150px;
     /* flex-grow: 1; */
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 5px;
     /* gap: 30px; */
     /* padding-left: 20px; */
     /* overflow: hidden; */

@@ -8,9 +8,12 @@
 .card{
     width: 250px;
     height: 300px;
-    background-color: rgba(255, 250, 250, 0.721);
+    background-color: black;
+    color: white;
+    /* background-color: rgba(255, 250, 250, 0.721); */
     display: flex;
     border-radius: 10px;
+    margin-bottom: 60px;
 }
 .imgBox{
     position: relative;
@@ -30,12 +33,17 @@
     flex-direction: column;
     padding: 0 20px;
     align-items: center;
+    justify-content: space-around;
 }
 .imgBox img{
-    width: 100%;
-    height: 150px;
-    /* border: 2px solid black; */
+    width: 70%;
+    height: 100px;
+    /* border: 1px solid black; */
     transition: 0.25s;
+}
+.evtolName{
+    /* background-color: aquamarine; */
+    margin: 0;
 }
 .thumb div{
     list-style: none;
@@ -70,7 +78,7 @@
     align-items: start;
     /* border: 1px solid black; */
     width: 100%;
-    height: 100px;
+    height: 80px;
     padding-top: 0;
 }
 .leftSpecs{
@@ -85,7 +93,7 @@
 .btn{
     position: absolute;
     bottom: -40px;
-    background: rgb(57, 69, 73);
+    background: green;
     display: inline-block;
     text-decoration: none;
     padding: 15px 30px;
@@ -99,29 +107,24 @@
 .btn:hover{
     letter-spacing: 2px;
 }
-
-.rating {
-    display: flex;
-    gap: 3px;
-    font-size: 15px;
-    height: 30%;
-    /* border: 1px solid black; */
-    /* background-color: brown; */
-    /* margin-top: 5px; */
-}
 #status{
+    margin: 0;
     font-size: 14px;
     font-family: MuseoModerno, serif;
-    height: 20px;
+    /* height: 20px; */
     /* border: 1px solid black; */
     /* color: rgb(30, 144, 30); */
 }
+.model{
+    margin: 0;
+}
 .battery{
+    margin: 0;
     border: 1px solid black;
-    color: rgb(28, 133, 28);
+    color: rgb(44, 255, 44);
     /* color: aliceblue; */
     width: 90%;
-    height: 40px;
+    /* height: 40px; */
     display: flex;
     align-items: center;
     gap: 10px;

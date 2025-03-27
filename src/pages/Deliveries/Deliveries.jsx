@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import { useEffect } from 'react';
 import './Deliveries.css';
-import pills from '../../images/pill1.png'
+import { Link } from 'react-router-dom';
+import meds from '../../images/meds.jpg'
 import Card from '../../components/Card/Card'
 import { PiCaretDownBold } from "react-icons/pi";
 import { GiToggles } from "react-icons/gi";
@@ -18,13 +19,15 @@ const Deliveries = () => {
     <div className='deliveries'>
         <div className="banner">
             <div className="bannerTxt">
-                <h1>🎉 New Year, New Discounts! 🎉</h1>
-                <p>💊Stay Healthy & Save More with Our January Medication Sale. <br />Up to 50% Off on Essential Medications!</p>
-                <button className="buyNow">Buy Now</button>
+                <h1>Healthcare at Your Doorstep — Powered by Drones</h1>
+                <p>💊Bringing essential medications to your doorstep, emergency or routine — get your medication in record time with drone delivery.</p>
+                <Link to='/UserLogin'>
+                    <button className='buyNow'>Shop for Meds</button>
+                </Link>
             </div>
             
             <div className="bannerImg">
-                <img src={pills} alt="" />
+                <img src={meds} alt="" />
             </div>
         </div>
 

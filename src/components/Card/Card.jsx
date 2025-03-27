@@ -26,7 +26,7 @@ const Card = ({product}) => {
   return (
     <div className='card'>
       <div className="imgBox">
-        <h2>{product.name}</h2>
+        <h2 className='evtolName'>{product.name}</h2>
         <img src={product.mainImage} alt={product.name} />
         <div className='specs'>
           <div className="leftSpecs">
@@ -38,7 +38,7 @@ const Card = ({product}) => {
               <FaBatteryThreeQuarters/>{product.specs.battery}
             </div>
           </div>
-          <p id='price' className='merriweather-bold-italic'>{product.specs.price}</p>
+          <p id='price'>{product.specs.price}</p>
         </div>
         
         <a href="#" className='btn'>Book Now</a>

@@ -67,7 +67,7 @@
     color: black;
 }
 .navLink:hover{
-    color: coral;
+    color: #4cc9c8;
 }
 .user{
     width: 200px;
@@ -77,10 +77,10 @@
     align-items: center;
     justify-content: space-evenly;
 }
-.user img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+.cart{
+    width: 30px;
+    height: 30px;
+    /* border-radius: 50%; */
 }
 .user i{
     font-size: 30px;
@@ -89,7 +89,7 @@
 
 .signIn{
     font-family: MuseoModerno, serif;
-    background-color: coral;
+    background-color: #4cc9c8;
     /* background-color: transparent; */
     border: 0;
     /* border: 2px solid coral; */
@@ -97,14 +97,11 @@
     /* width: 100px; */
     padding: 10px 20px 10px 20px;
     cursor: pointer;
-}
-.signIn a{
     color: white;
-    /* color: black; */
     text-decoration: none;
 }
 .signIn:hover{
     /* letter-spacing: 2px; */
-    transform: scale(1.1);
-    background-color: rgb(224, 99, 53);
+    transform: scale(0.9);
+    background-color: #338f8f;
 }

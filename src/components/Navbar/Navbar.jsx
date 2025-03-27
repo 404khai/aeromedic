@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Navbar.css'
 import logo from '../../images/logo.png'
+import drone from '../../images/trolley-cart.png'
 import { IoMdNotifications } from "react-icons/io";
 import { GiDeliveryDrone } from "react-icons/gi";
 // import { FaShoppingCart } from "react-icons/fa";
@@ -23,10 +24,11 @@ const Navbar = () => {
             </div>
 
             <div className="user">
+                <img src={drone} alt="" className='cart'/>
                 {/* <i><IoMdNotifications /></i> */}
-                <button className='signIn'>
-                    <Link to='/UserLogin'>Sign In</Link>
-                </button>
+                <Link to='/UserLogin'>
+                    <button className='signIn'>Sign In</button>
+                </Link>
             </div>
         </div>
     )

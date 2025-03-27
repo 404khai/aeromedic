@@ -1,54 +1,53 @@
 [
-    {
-      "id": 1,
-      "name": "eV-001",
-      "images": ["../../src/images/eVTOL1.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
-      "mainImage": "../../src/images/eVTOL1.png",
+  {
+    "id": 1,
+    "name": "eV-001",
+    "images": ["../../src/images/eVTOL1.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
+    "mainImage": "../../src/images/eVTOL1.png",
+    "specs": {
+      "status": "IDLE",
+      "model": "Lightweight",
+      "price": "$85",
+      "battery": "100%"
+    }
+    
+  },
+  {
+      "id": 2,
+      "name": "eV-002",
+      "images": ["../../src/images/eVTOL2.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
+      "mainImage": "../../src/images/eVTOL2.png",
       "specs": {
-        "status": "IDLE",
-        "model": "Lightweight",
-        "price": "$85",
+        "status": "LOADING",
+        "model": "Middleweight",
+        "price": "$79.3",
         "battery": "100%"
       }
-      
-    },
-    {
-        "id": 2,
-        "name": "eV-002",
-        "images": ["../../src/images/eVTOL2.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
-        "mainImage": "../../src/images/eVTOL2.png",
-        "specs": {
-          "status": "LOADING",
-          "model": "Middleweight",
-          "price": "$79.3",
-          "battery": "100%"
-        }
-    },
-    {
-        "id": 3,
-        "name": "eV-003",
-        "images": ["../../src/images/eVTOL1.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
-        "mainImage": "../../src/images/eVTOL3.png",
-        "specs": {
-          "status": "LOADED",
-          "model": "Cruiserweight",
-          "price": "$46",
-          "battery": "100%"
-        }
-        
-    },
-    {
-      "id": 4,
-      "name": "eV-004",
+  },
+  {
+      "id": 3,
+      "name": "eV-003",
       "images": ["../../src/images/eVTOL1.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
       "mainImage": "../../src/images/eVTOL3.png",
       "specs": {
-        "status": "IDLE",
-        "model": "Heavyweight",
+        "status": "LOADED",
+        "model": "Cruiserweight",
         "price": "$46",
         "battery": "100%"
       }
       
+  },
+  {
+    "id": 4,
+    "name": "eV-004",
+    "images": ["../../src/images/eVTOL1.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
+    "mainImage": "../../src/images/eVTOL3.png",
+    "specs": {
+      "status": "IDLE",
+      "model": "Heavyweight",
+      "price": "$46",
+      "battery": "100%"
+    }  
   },
   {
     "id": 5,
@@ -73,6 +72,178 @@
       "price": "$46",
       "battery": "100%"
     }
-  }
+  },
+  {
+    "id": 7,
+    "name": "eV-007",
+    "images": ["../../src/images/eVTOL1.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
+    "mainImage": "../../src/images/eVTOL1.png",
+    "specs": {
+      "status": "IDLE",
+      "model": "Lightweight",
+      "price": "$85",
+      "battery": "100%"
+    }
+    
+  },
+  {
+      "id": 8,
+      "name": "eV-008",
+      "images": ["../../src/images/eVTOL2.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
+      "mainImage": "../../src/images/eVTOL2.png",
+      "specs": {
+        "status": "LOADING",
+        "model": "Middleweight",
+        "price": "$79.3",
+        "battery": "100%"
+      }
+  },
+  {
+      "id": 9,
+      "name": "eV-009",
+      "images": ["../../src/images/eVTOL1.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
+      "mainImage": "../../src/images/eVTOL3.png",
+      "specs": {
+        "status": "LOADED",
+        "model": "Cruiserweight",
+        "price": "$46",
+        "battery": "100%"
+      }
+      
+  },
+  {
+    "id": 10,
+    "name": "eV-010",
+    "images": ["../../src/images/eVTOL1.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
+    "mainImage": "../../src/images/eVTOL3.png",
+    "specs": {
+      "status": "IDLE",
+      "model": "Heavyweight",
+      "price": "$46",
+      "battery": "100%"
+    }  
+  },
+  {
+    "id": 11,
+    "name": "eV-011",
+    "images": ["../../src/images/eVTOL1.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
+    "mainImage": "../../src/images/eVTOL3.png",
+    "specs": {
+      "status": "IDLE",
+      "model": "Cruiserweight",
+      "price": "$46",
+      "battery": "100%"
+    }
+  },
+  {
+    "id": 12,
+    "name": "eV-012",
+    "images": ["../../src/images/eVTOL1.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
+    "mainImage": "../../src/images/eVTOL3.png",
+    "specs": {
+      "status": "LOADING",
+      "model": "Middleweight",
+      "price": "$46",
+      "battery": "100%"
+    }
+  },
+  {
+    "id": 13,
+    "name": "eV-013",
+    "images": ["../../src/images/eVTOL1.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
+    "mainImage": "../../src/images/eVTOL1.png",
+    "specs": {
+      "status": "IDLE",
+      "model": "Lightweight",
+      "price": "$85",
+      "battery": "100%"
+    }
+    
+  },
+  {
+      "id": 14,
+      "name": "eV-014",
+      "images": ["../../src/images/eVTOL2.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
+      "mainImage": "../../src/images/eVTOL2.png",
+      "specs": {
+        "status": "LOADING",
+        "model": "Middleweight",
+        "price": "$79.3",
+        "battery": "100%"
+      }
+  },
+  {
+      "id": 15,
+      "name": "eV-015",
+      "images": ["../../src/images/eVTOL1.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
+      "mainImage": "../../src/images/eVTOL3.png",
+      "specs": {
+        "status": "LOADED",
+        "model": "Cruiserweight",
+        "price": "$46",
+        "battery": "100%"
+      }
+      
+  },
+  {
+    "id": 16,
+    "name": "eV-016",
+    "images": ["../../src/images/eVTOL1.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
+    "mainImage": "../../src/images/eVTOL3.png",
+    "specs": {
+      "status": "IDLE",
+      "model": "Heavyweight",
+      "price": "$46",
+      "battery": "100%"
+    }  
+  },
+  {
+    "id": 17,
+    "name": "eV-017",
+    "images": ["../../src/images/eVTOL1.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
+    "mainImage": "../../src/images/eVTOL3.png",
+    "specs": {
+      "status": "IDLE",
+      "model": "Cruiserweight",
+      "price": "$46",
+      "battery": "100%"
+    }
+  },
+  {
+    "id": 18,
+    "name": "eV-018",
+    "images": ["../../src/images/eVTOL1.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
+    "mainImage": "../../src/images/eVTOL3.png",
+    "specs": {
+      "status": "LOADING",
+      "model": "Middleweight",
+      "price": "$46",
+      "battery": "100%"
+    }
+  },
+  {
+    "id": 19,
+    "name": "eV-019",
+    "images": ["../../src/images/eVTOL1.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
+    "mainImage": "../../src/images/eVTOL3.png",
+    "specs": {
+      "status": "IDLE",
+      "model": "Cruiserweight",
+      "price": "$46",
+      "battery": "100%"
+    }
+  },
+  {
+    "id": 20,
+    "name": "eV-020",
+    "images": ["../../src/images/eVTOL1.png", "../../src/images/eVTOL2.png", "../../src/images/eVTOL3.png"],
+    "mainImage": "../../src/images/eVTOL3.png",
+    "specs": {
+      "status": "LOADING",
+      "model": "Middleweight",
+      "price": "$46",
+      "battery": "100%"
+    }
+  }  
 ]
   

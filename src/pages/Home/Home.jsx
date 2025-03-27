@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import banner from '../../images/banner.png'
+import banner from '../../images/dronewithmeds.png'
 import { FaQuoteLeft } from "react-icons/fa6";
 import { FaQuoteRight } from "react-icons/fa6";
 

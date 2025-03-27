@@ -5,8 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { Link, useNavigate } from 'react-router-dom';
 import { BiLogoGmail } from "react-icons/bi";
 import { IoKeySharp } from "react-icons/io5";
-import { FaGoogle } from "react-icons/fa";
-import { FaApple } from "react-icons/fa";
+
 
 const UserLogin = () => {
 
@@ -18,7 +17,7 @@ const UserLogin = () => {
 
     // Show Toastify notification
     toast.success('Logged in successfully!', {
-      position: "top-right",
+      position: "bottom-right",
       autoClose: 2000, // 2 seconds duration
       hideProgressBar: false,
       closeOnClick: true,

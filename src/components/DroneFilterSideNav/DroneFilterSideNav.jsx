@@ -1,10 +1,13 @@
 import React, {useState} from 'react'
 import './DroneFilterSideNav.css'
 import { IoFilter } from "react-icons/io5";
-import DropdownWithCheckboxes2 from '../Dropdownwithcheckboxes2/DropdownWithCheckboxes2';
+import DropdownWithCheckboxes from '../DropdownWithCheckboxes/DropdownWithCheckboxes';
 import PriceFilter from '../PriceFilter/PriceFilter';
 
 const DroneFilterSideNav = () => {
+  const categoryOptions = ['Lightweight', 'Middleweight', 'Cruiserweight', 'Heavyweight'];
+  const statusOptions = ['Idle', 'Loading', 'Loaded', 'Delivering', 'Delivered', 'Returning',];
+
   const [filteredPrice, setFilteredPrice] = useState(100);
 
   const handleFilterChange = (price) => {
@@ -21,11 +24,19 @@ const DroneFilterSideNav = () => {
         </div>
 
         <div className="filterOptions">
-            <DropdownWithCheckboxes2/>
+            <DropdownWithCheckboxes 
+              id="category"
+              title="Category"
+              options={categoryOptions}
+            />
 
             <input type="text" placeholder='Name' className='filterSearch'/>
 
-            <input type="text" placeholder='Status' className='filterSearch'/>
+            <DropdownWithCheckboxes 
+              id="status"
+              title="Status"
+              options={statusOptions}
+            />
 
             <input type="text" placeholder='Battery' className='filterSearch'/>
 

@@ -105,7 +105,7 @@ const Cart = ({ cartItems, toggleCart, setCartItems }) => {
           {/* Total price + Get an eVTOL button */}
           <div className="cartFooter">
             <p className="totalPrice"> <b>Total:</b> ${totalPrice.toFixed(2)}</p>
-            <button className='signIn' onClick={handleCheckout}>Get an eVTOL</button>
+            <button className='getevtol' onClick={handleCheckout}>Get an eVTOL</button>
           </div>
         </>
       )}

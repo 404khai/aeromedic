@@ -72,3 +72,22 @@
     border-top: 1px solid #ccc;
     padding-top: 30px;
 }
+
+.getevtol{
+    font-family: MuseoModerno, serif;
+    background-color: #338f8f;
+    /* background-color: transparent; */
+    border: 0;
+    /* border: 2px solid coral; */
+    border-radius: 10px;
+    /* width: 100px; */
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.getevtol:hover{
+    /* letter-spacing: 2px; */
+    transform: scale(0.9);
+    background-color: #338f8f;
+}

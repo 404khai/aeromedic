@@ -1,12 +1,10 @@
-import { useState } from 'react';
+import { useState } from 'react'; 
 import './DropdownWithCheckboxes.css'
 import { PiCaretDownBold } from "react-icons/pi";
 
-const DropdownWithCheckboxes = () => {
+const DropdownWithCheckboxes = ({ id, title, options }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOptions, setSelectedOptions] = useState([]);
-
-  const options = ['Analgesics', 'Antibiotics', 'Antihistamines', 'Antihypertensives', 'Antacids','Antidepressants', 'Antidiabetics','Antipyretics', 'Bronchodilators'];
 
   const handleCheckboxChange = (option) => {
     setSelectedOptions((prev) =>
@@ -23,7 +21,7 @@ const DropdownWithCheckboxes = () => {
       <button onClick={handleToggle} className="dropdown-btn">
         {selectedOptions.length > 0
           ? selectedOptions.join(', ')
-          : 'Category'}
+          : title}
         <i><PiCaretDownBold /></i>
       </button>
       {isOpen && (

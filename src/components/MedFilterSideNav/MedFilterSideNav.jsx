@@ -5,6 +5,8 @@ import DropdownWithCheckboxes from '../Dropdownwithcheckboxes/DropdownWithCheckb
 import PriceFilter from '../PriceFilter/PriceFilter';
 
 const MedFilterSideNav = () => {
+  const medCategoryOptions = ['Analgesics', 'Antibiotics', 'Antihistamines', 'Antihypertensives', 'Antacids','Antidepressants', 'Antidiabetics','Antipyretics', 'Bronchodilators'];
+
   const [filteredPrice, setFilteredPrice] = useState(100);
 
   const handleFilterChange = (price) => {
@@ -21,7 +23,11 @@ const MedFilterSideNav = () => {
         </div>
 
         <div className="filterOptions">
-            <DropdownWithCheckboxes/>
+            <DropdownWithCheckboxes 
+              id="medCategory"
+              title="Category"
+              options={medCategoryOptions}
+            />
 
             <input type="text" placeholder='Name' className='filterSearch'/>
 

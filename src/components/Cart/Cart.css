@@ -1,0 +1,74 @@
+/* .cart{
+    width: 200px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    z-index: 3;
+    background-color: #ccc;
+} */
+.cart {
+    font-family: "Inter", sans-serif;
+    position: fixed;
+    top: 80px;
+    right: 0px;
+    width: 300px;
+    height: 470px;
+    /* height: min-content; */
+    background-color: #f8f8f8;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+    transition: right 0.3s ease;
+    padding: 20px;
+    z-index: 1000;
+    overflow-y: scroll;
+  }
+  
+  .cart.open {
+    right: 0;
+  }
+  
+  .close-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+
+.cartItem{
+    border-top: 1px solid #ccc;
+    /* border-bottom: 1px solid #ccc; */
+    /* margin-bottom: 20px; */
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+/* .cartItem:last-child{
+    border-bottom: 1px solid #ccc;
+} */
+.cartItem h4, p{
+    margin: 0;
+}
+.quantityChanger{
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 10px;
+}
+.increaseQuant, .decreaseQuant{
+    background-color: #129393;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 13px;
+    color: white;
+    border: 0;
+}
+.increaseQuant:hover, .decreaseQuant:hover{
+    transform: scale(0.9);
+    transition: 0.6s;
+}
+.cartFooter{
+    border-top: 1px solid #ccc;
+    padding-top: 30px;
+}

@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "name": "Paracetamol",
+      "category": "Analgesics",
+      "image": "../../src/images/paracetamol.png",
+      "weight": "20g",
+      "price": "20",
+      "code": "ANG-1F45",
+      "width": "50%"
+    },
+    {
+      "id": 2,
+      "name": "Amoxicillin",
+      "category": "Antibiotics",
+      "image": "../../src/images/amoxicillin.png",
+      "weight": "30g",
+      "price": "20",
+      "code": "ANB-9Z34",
+      "width": "50%"
+    },
+    {
+      "id": 3,
+      "name": "Lisinopril",
+      "category": "Hypertensive",
+      "image": "../../src/images/lisinopril.webp",
+      "weight": "20g",
+      "price": "20",
+      "code": "HYP-2U76",
+      "width": "50%"
+    },
+    {
+      "id": 4,
+      "name": "Omeprazole",
+      "category": "Antacid",
+      "image": "../../src/images/omeprazole.png",
+      "weight": "50g",
+      "price": "20",
+      "code": "ANA-5R15",
+      "width": "50%"
+    },
+    {
+      "id": 5,
+      "name": "Theophylline",
+      "category": "Bronchodilator",
+      "image": "../../src/images/theophylline.jpg",
+      "weight": "20g",
+      "price": "20",
+      "code": "BRC-8D24",
+      "width": "50%"
+    },
+    {
+      "id": 6,
+      "name": "Insulin",
+      "category": "Antidiabetic",
+      "image": "../../src/images/insulin.png",
+      "weight": "20g",
+      "price": "20",
+      "code": "AND-7Y31",
+      "width": "100%"
+    }
+]

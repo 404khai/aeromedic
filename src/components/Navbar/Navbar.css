@@ -18,7 +18,7 @@
 .navBar{
     width: 100%;
     height: 80px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     backdrop-filter: blur(10px);
     display: flex;
     gap: 3%;
@@ -77,9 +77,9 @@
     align-items: center;
     justify-content: space-evenly;
 }
-.cart{
-    width: 30px;
-    height: 30px;
+.cartIcon{
+    width: 40px;
+    height: 40px;
     /* border-radius: 50%; */
 }
 .user i{
@@ -105,3 +105,20 @@
     transform: scale(0.9);
     background-color: #338f8f;
 }
+
+
+.cartWrapper {
+    position: relative;
+  }
+  
+  .cartBadge {
+    position: absolute;
+    top: -5px;
+    right: -8px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+  

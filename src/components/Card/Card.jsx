@@ -3,7 +3,7 @@ import './Card.css'
 // import { FaStar, FaRegStar } from 'react-icons/fa';
 import { FaBatteryThreeQuarters } from "react-icons/fa6";
 
-const Card = ({product}) => {
+const Card = ({drone}) => {
   // const renderStars = (rating) => {
   //   const stars = [];
   //   for (let i = 1; i <= 5; i++) {
@@ -26,19 +26,19 @@ const Card = ({product}) => {
   return (
     <div className='card'>
       <div className="imgBox">
-        <h2 className='evtolName'>{product.name}</h2>
-        <img src={product.mainImage} alt={product.name} />
+        <h2 className='evtolName'>{drone.name}</h2>
+        <img src={drone.mainImage} alt={drone.name} />
         <div className='specs'>
           <div className="leftSpecs">
-            <p id='status' style={{ color: getStatusColor(product.specs.status) }}>
-              <b>{product.specs.status}</b>
+            <p id='status' style={{ color: getStatusColor(drone.specs.status) }}>
+              <b>{drone.specs.status}</b>
             </p>
-            <div className="model">{product.specs.model}</div>
+            <div className="model">{drone.specs.model}</div>
             <div className="battery">
-              <FaBatteryThreeQuarters/>{product.specs.battery}
+              <FaBatteryThreeQuarters/>{drone.specs.battery}
             </div>
           </div>
-          <p id='price'>{product.specs.price}</p>
+          <p id='price'>{drone.specs.price}</p>
         </div>
         
         <a href="#" className='btn'>Book Now</a>

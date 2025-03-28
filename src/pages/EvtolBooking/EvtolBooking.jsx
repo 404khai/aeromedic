@@ -1,21 +1,30 @@
 import React, {useState} from 'react'
 import { useEffect } from 'react'
 import './EvtolBooking.css'
-import data from '../../bookingData.json'
+import DroneFilterSideNav from '../../components/DroneFilterSideNav/DroneFilterSideNav'
+import data from '../../json/bookingData.json'
 import Card from '../../components/Card/Card'
 
-const EvtolBooking = ({product}) => {
-    const [products, setProducts] = useState([]);
+const EvtolBooking = ({drone}) => {
+    const [drones, setDrones] = useState([]);
 
         useEffect(() => {
-        setProducts(data);
+        setDrones(data);
     }, []);
 
   return (
-    <div className="droneShop">
-        {products.map((product) => (
-          <Card key={product.id} product={product} />
-        ))}
+    <div className='drones'>
+      <DroneFilterSideNav />
+      <div className="dronesBodyBox">
+        <div className="dronesHead">
+          <h1>Drones</h1>
+        </div>
+        <div className="dronesBody">
+          {drones.map((drone) => (
+            <Card key={drone.id} drone={drone}/>
+          ))}
+        </div>
+      </div>
     </div>
   )
 }

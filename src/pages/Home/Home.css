@@ -1,37 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
 .home{
     /* width: 100%; */
-    height: 560px;
+    /* height: 700vh; */
     /* border: 3px solid rgb(250, 0, 0); */
-    /* background-color: rgb(186, 176, 176); */
-    /* background: linear-gradient(to right, #707070, #9a9a9a, #d4d4d4); */
+    /* background: linear-gradient(to right, #a0a0a0, #d7d3d0, #6b6b6b); */
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    /* margin: 20px; */
     backdrop-filter: blur(10px);
-    padding-left: 50px;
-    /* font-family: Poppins, sans-serif; */
-    font-family: MuseoModerno, serif;
+    /* padding-left: 50px; */
+    font-family: Poppins, sans-serif;
 }
-.homeTxt{
-    margin-top: 60px;
-    width: 400px;
-    height: 250px;
-    border-radius: 10px;
-    border-left: 10px solid white;
-    padding-left: 20px;
+.homeBanner{
+    margin-top: 80px;
+    width: 100%;
+    height: 500px;
+    /* border-radius: 10px; */
+    /* padding-left: 20px; */
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    gap: 20px;
     /* align-items: center; */
     justify-content: center;
-    /* color: white; */
-    /* background-color: black; */
+    /* background-image: url(../../images/medBanner.webp); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: blanchedalmond; */
+    /* background-color: rgb(205, 198, 192); */
 }
-.homeTxt h1{
+.homeBanner h1{
     font-family: MuseoModerno, serif;
     font-size: 30px;
-    /* background-color: coral; */
+    margin: 0;
+}
+.homeBannerTxt{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 40px;
+    gap: 20px;
+    justify-content: center;
+}
+.homeBannerImg{
+    width: 50%;
+    height: 80%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.homeBannerImg img{
+    width: 100%;
+    height: 100%;
 }
 .healthCare{
     color: #4cc9c8;
+}
+
+
+.mySwiper{
+    /* border: 4px solid black; */
+    width: 80%;
+    height: 100%;
 }

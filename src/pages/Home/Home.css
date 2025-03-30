@@ -10,7 +10,7 @@
     /* margin: 20px; */
     backdrop-filter: blur(10px);
     /* padding-left: 50px; */
-    font-family: Poppins, sans-serif;
+    /* font-family: Poppins, sans-serif; */
 }
 .homeBanner{
     margin-top: 80px;
@@ -59,7 +59,9 @@
     height: 100%;
 }
 .healthCare{
+    font-family: MuseoModerno, serif;
     color: #4cc9c8;
+
 }
 
 

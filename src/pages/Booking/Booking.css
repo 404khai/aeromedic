@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: space-evenly;
     gap: 60px;
-    font-family: MuseoModerno, serif;
+    /* font-family: MuseoModerno, serif; */
 }
 .bookHeroSec{
     
@@ -43,14 +43,14 @@
     gap: 20px;
     /* background-color: black; */
 }
-.bookTxt h1{
+.bookingTxtH1{
     font-family: MuseoModerno, serif;
     font-size: 30px;
     margin: 0;
 }
 
 .bookNow{
-    font-family: MuseoModerno, serif;
+    /* font-family: MuseoModerno, serif; */
     background-color: #4cc9c8;
     /* background-color: transparent; */
     border: 0;

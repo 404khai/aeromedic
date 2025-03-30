@@ -10,7 +10,7 @@ const Booking = () => {
     <div className="booking">
       <img src={eVTOL} alt="" className='bookingImg'/>
       <div className="bookingTxt">
-        <h1>🚀 Your Air Taxi Awaits</h1>
+        <h1 className='bookingTxtH1'>🚀 Your Air Taxi Awaits</h1>
         <p>
           Secure Your eVTOL Flight – Fast, Safe, and Hassle-Free!
           Seamless eVTOL Bookings for a Faster Commute.

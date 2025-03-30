@@ -71,7 +71,7 @@ const Navbar = ({ cartItems, setCartItems, cartImage }) => {
             <div className='navBar'>
                 <div className="logo">
                     <img src={logo} alt="" className='logoIcon'/>
-                    <h1>SwiftDrones</h1>
+                    <h1>AEROMEDIC</h1>
                 </div>
 
                 <div className="navLinks">
@@ -93,7 +93,7 @@ const Navbar = ({ cartItems, setCartItems, cartImage }) => {
                         )}
                     </div>
                     <Link to='/UserLogin'>
-                        <button className='signIn'>Sign In</button>
+                        <button className='signIn'>Log In</button>
                     </Link>
                 </div>
             </div>

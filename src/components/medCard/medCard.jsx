@@ -36,7 +36,7 @@ const MedCard = ({ drug, addToCart }) => {
           className='medImg' 
           style={{width: drug.width}}  
         />
-        <p className='medWeight'>{drug.weight}</p>
+        <p className='medWeight'>{drug.weight}g</p>
         <p className='medPrice'><b>${drug.price}</b></p>
         <p className='medCode'><i>{drug.code}</i></p>
         <i 

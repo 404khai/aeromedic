@@ -12,11 +12,12 @@
 }
 .medicationsBodyBox{
     width: 80%;
-    /* background-color: brown; */
+    background-color: #003d3d3e;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-left: 20%;
+    height: 150%;
     /* position: relative; */
 }
 .medicationsBody{

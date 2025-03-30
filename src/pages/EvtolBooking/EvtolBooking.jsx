@@ -5,7 +5,7 @@ import DroneFilterSideNav from '../../components/DroneFilterSideNav/DroneFilterS
 import data from '../../json/bookingData.json'
 import Card from '../../components/Card/Card'
 
-const EvtolBooking = ({drone}) => {
+const EvtolBooking = ({drone, addToCart, cartItems}) => {
     const [drones, setDrones] = useState([]);
 
         useEffect(() => {
@@ -21,7 +21,7 @@ const EvtolBooking = ({drone}) => {
         </div>
         <div className="dronesBody">
           {drones.map((drone) => (
-            <Card key={drone.id} drone={drone}/>
+            <Card key={drone.id} drone={drone} cartItems={cartItems} addToCart={addToCart}/>
           ))}
         </div>
       </div>

@@ -18,7 +18,7 @@ const Packaging = () => {
 
       const conveyorTimer = setTimeout(() => {
         navigate('/Booking'); // Navigate to Booking after 3 seconds of conveyor gif
-      }, 6000);
+      }, 3000);
 
       return () => clearTimeout(conveyorTimer); // Cleanup the conveyor timer
     }, 2000);

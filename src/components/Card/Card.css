@@ -86,8 +86,8 @@
     position: absolute;
     bottom: -30px;
     font-family: MuseoModerno, serif;
-    background-color: #4cc9c8;
-    /* background-color: transparent; */
+    /* background-color: #4cc9c8; */
+    background-color: black;
     border: 0;
     /* border: 2px solid coral; */
     border-radius: 10px;
@@ -101,7 +101,7 @@
     /* letter-spacing: 2px; */
     letter-spacing: 2px;
     /* transform: scale(0.9); */
-    background-color: #338f8f;
+    background-color: black;
 }
 #status{
     margin: 0;
@@ -116,18 +116,21 @@
     color: black;
 }
 .battery{
-    margin: 0;
-    border: 1px solid black;
-    color: rgb(44, 255, 44);
+    /* background-color: #4cc9c8; */
     /* color: aliceblue; */
     width: 90%;
     /* height: 40px; */
     display: flex;
     align-items: center;
     gap: 10px;
-    border-radius: 30px;
     /* padding-left: 20px; */
     border: 0;
+}
+.battery i, .battery p{
+    margin: 0;
+}
+.battery i{
+    margin-top: 5px;
 }
 #price{
     color: black;

@@ -36,7 +36,7 @@
     width: 300px;
     height: 100%;
     /* font-family: 'BatmanForeverAlternate Regular', sans-serif; */
-    font-family: MuseoModerno, serif;
+    /* font-family: MuseoModerno, serif; */
     /* font-family: 'SquareGame', sans-serif; */
     /* background-color: chocolate; */
     display: flex;
@@ -46,10 +46,11 @@
 }
 .logo h1{
     font-size: 20px;
+    font-family: MuseoModerno, serif;
 }
 .logoIcon{
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 60px;
 }
 .navLinks{
     width: 500px;
@@ -80,7 +81,7 @@
 .cartIcon{
     width: 40px;
     height: 40px;
-    /* border-radius: 50%; */
+    /* border-radius:350%; */
 }
 .user i{
     font-size: 30px;
@@ -88,7 +89,7 @@
 
 
 .signIn{
-    font-family: MuseoModerno, serif;
+    /* font-family: MuseoModerno, serif; */
     background-color: #4cc9c8;
     /* background-color: transparent; */
     border: 0;
@@ -118,7 +119,7 @@
     background-color: red;
     color: white;
     border-radius: 50%;
-    padding: 4px 8px;
+    padding: 1px 4px;
     font-size: 12px;
   }
   

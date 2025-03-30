@@ -82,7 +82,9 @@ const Cart = ({ cartItems, toggleCart, setCartItems }) => {
 
   return (
     <div className={`cart ${cartItems.length > 0 ? 'open' : ''}`}>
-      <button onClick={toggleCart} className="close-btn">Close</button>
+      <button onClick={toggleCart} className="close-btnCart">
+        <p>&times;</p>
+      </button>
       
       {cartItems.length === 0 ? (
         <p>Your cart is empty!</p>
@@ -93,8 +95,9 @@ const Cart = ({ cartItems, toggleCart, setCartItems }) => {
               <h4>{item.name}</h4>
               <p>Category: {item.category}</p>
               <p>Price: ${item.price * item.quantity}</p>
-              <p>Weight: {item.weight}</p>
+              <p>Weight: {parseFloat(item.weight) * item.quantity}g</p>
               <div className="quantityChanger">
+                Quantity:
                 <button className='increaseQuant' onClick={() => handleQuantityChange(item.id, -1)}>-</button>
                 <span>{item.quantity}</span>
                 <button className='decreaseQuant' onClick={() => handleQuantityChange(item.id, 1)}>+</button>
@@ -104,8 +107,8 @@ const Cart = ({ cartItems, toggleCart, setCartItems }) => {
 
           {/* Total price + Get an eVTOL button */}
           <div className="cartFooter">
-            <p className="totalPrice"> <b>Total:</b> ${totalPrice.toFixed(2)}</p>
-            <button className='getevtol' onClick={handleCheckout}>Get an eVTOL</button>
+            <p className="totalPrice"> <b>Cart Total:</b> ${totalPrice.toFixed(2)}</p>
+            <button className='getevtol' onClick={handleCheckout}>Book an eVTOL</button>
           </div>
         </>
       )}

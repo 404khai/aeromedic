@@ -1,8 +1,10 @@
 import React, {useState, useRef} from 'react';
 import { useEffect } from 'react';
 import './Home.css'
-import banner from '../../images/package.png'
-import medInterface from '../../images/medFuture.png'
+// import banner from '../../images/package.png'
+// import medInterface from '../../images/medFuture.png'
+import drone from '../../images/2dronez.png'
+import drone2 from '../../images/3dronez.png'
 import { FaQuoteLeft } from "react-icons/fa6";
 import { FaQuoteRight } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
@@ -96,7 +98,7 @@ const Home = () => {
                     </div>
                     
                     <div className="homeBannerImg">
-                        <img src={banner} alt="" className='img'/>
+                        <img src={drone} alt="" className='img'/>
                     </div>
                 </div>  
             </SwiperSlide>
@@ -112,7 +114,7 @@ const Home = () => {
                     </div>
                     
                     <div className="homeBannerImg">
-                        <img src={medInterface} alt="" className='img'/>
+                        <img src={drone2} alt="" className='img'/>
                     </div>
                 </div>  
             </SwiperSlide>

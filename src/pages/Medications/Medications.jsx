@@ -39,7 +39,7 @@ import React, { useState, useEffect } from 'react';
 import './Medications.css';
 import MedFilterSideNav from '../../components/MedFilterSideNav/MedFilterSideNav';
 import medicationData from '../../json/medications.json';
-import MedCard from '../../components/MedCard/MedCard';
+import MedCard from '../../components/MedCard//MedCard';
 
 const Medications = ({ addToCart }) => {
     const [drugs, setDrugs] = useState([]);

@@ -1,65 +1,18 @@
-// import React, { useState } from 'react'
-// import './Navbar.css'
-// import logo from '../../images/logo.png'
-// import animatedCart from '../../images/trolley-cart.png'
-// import cartIcon from '../../images/grocery.png'
-// import Cart from '../Cart/Cart'
-// // import { FaShoppingCart } from "react-icons/fa";
-// import { Link } from 'react-router-dom';
-
-// const Navbar = () => {
-//     const [dropdown, setDropdown] = useState(false);
-//     const [isCartOpen, setIsCartOpen] = useState(false); // Cart state
-
-//     const toggleCart = () => {
-//         setIsCartOpen(!isCartOpen);
-//     };
-
-//     return (
-//         <div className='navBar'>
-//             <div className="logo">
-//                 <img src={logo} alt="" className='logoIcon'/>
-//                 <h1>SwiftDrones</h1>
-//             </div>
-
-//             <div className="navLinks">
-//                 <Link to='/Home' className='navLink'>Home</Link>
-//                 <Link to='/Deliveries' className='navLink'>Deliveries</Link>
-//                 <Link to='/Booking' className='navLink'>Booking</Link>
-//             </div>
-
-//             <div className="user">
-//                 <img 
-//                     src={cartIcon} 
-//                     alt="" 
-//                     className='cartIcon' 
-//                     onClick={toggleCart} 
-//                 />
-//                 {/* <i><IoMdNotifications /></i> */}
-//                 <Link to='/UserLogin'>
-//                     <button className='signIn'>Sign In</button>
-//                 </Link>
-//             </div>
-
-//             {isCartOpen && <Cart isCartOpen={isCartOpen} toggleCart={toggleCart} />}
-//         </div>
-
-        
-//     )
-// }
-
-// export default Navbar
-
-
 
 import React, { useState } from 'react';
 import './Navbar.css';
-import logo from '../../images/logo.png';
+import logo from '../../images/aeroMedic.png';
 import Cart from '../Cart/Cart';
 import { Link } from 'react-router-dom';
 
 
 const Navbar = ({ cartItems, setCartItems, cartImage }) => {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+    };
+    
     const [isCartOpen, setIsCartOpen] = useState(false);
 
     const toggleCart = () => {
@@ -68,16 +21,21 @@ const Navbar = ({ cartItems, setCartItems, cartImage }) => {
 
     return (
         <>
-            <div className='navBar'>
-                <div className="logo">
-                    <img src={logo} alt="" className='logoIcon'/>
-                    <h1>AEROMEDIC</h1>
+            <div className="navBar">
+
+                <div className="menu-toggle">
+                    <input type="checkbox" id="checkbox" checked={isMenuOpen} onChange={toggleMenu} />
+                    <label htmlFor="checkbox" className="toggle">
+                        <div className="bars" id="bar1"></div>
+                        <div className="bars" id="bar2"></div>
+                        <div className="bars" id="bar3"></div>
+                    </label>
                 </div>
 
-                <div className="navLinks">
-                    <Link to='/Home' className='navLink'>Home</Link>
-                    <Link to='/Deliveries' className='navLink'>Deliveries</Link>
-                    <Link to='/Booking' className='navLink'>Booking</Link>
+                <div className="logo">
+                    <img src={logo} alt="" />
+                    {/* <img src={logo} alt="" className='logoIcon'/>
+                    <h1>AEROMEDIC</h1> */}
                 </div>
 
                 <div className="user">
@@ -96,6 +54,14 @@ const Navbar = ({ cartItems, setCartItems, cartImage }) => {
                         <button className='signIn'>Log In</button>
                     </Link>
                 </div>
+            </div>
+
+            <div className={`navLinks ${isMenuOpen ? 'open' : ''}`}>
+                <Link to='/Home' className='navLink'>Home</Link>
+                <Link to='' className='navLink'>About</Link>
+                <Link to='/Deliveries' className='navLink'>Deliveries</Link>
+                <Link to='/Booking' className='navLink'>Booking</Link>
+                <Link to='' className='navLink'>Gallery</Link>
             </div>
 
             {isCartOpen && (

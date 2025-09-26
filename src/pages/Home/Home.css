@@ -23,11 +23,12 @@
     gap: 20px;
     /* align-items: center; */
     justify-content: center;
-    /* background-image: url(../../images/medBanner.webp); */
+    /* background-image: url('https://static.wixstatic.com/media/86ce73_630cc6497cd84ca5a95eae54a7daac78.jpg/v1/fill/w_1960,h_1002,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/86ce73_630cc6497cd84ca5a95eae54a7daac78.jpg'); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-color: blanchedalmond; */
+    /* background-color: rgba(0, 0, 0, 0.352); */
+    /* background-blend-mode: darken; */
     /* background-color: rgb(205, 198, 192); */
 }
 .homeBanner h1{
@@ -47,8 +48,8 @@
     justify-content: center;
 }
 .homeBannerImg{
-    width: 50%;
-    height: 80%;
+    width: 40%;
+    height: 60%;
     /* border: 2px solid black; */
     display: flex;
     align-items: center;
@@ -60,7 +61,7 @@
 }
 .healthCare{
     font-family: MuseoModerno, serif;
-    color: #4cc9c8;
+    color: #01A7A3;
 
 }
 
